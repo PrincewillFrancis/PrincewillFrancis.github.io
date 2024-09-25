@@ -11,7 +11,11 @@ html {
     line-height: 1.4em;
 }
 
-
+html, body {
+	margin:3px;
+	padding:0px;
+	height:100%;
+}
 
 
 body {
@@ -62,3 +66,4 @@ header,footer{
 	background:goldenrod;
 	padding:10px;
 }
+
