@@ -27,7 +27,7 @@ body {
 span.oreo{
 	color:red;
 	font-size:300px;
-	position: absolute;
+	/* position: absolute; 
 	bottom:200px;
 	right:0px;
 	rotate:0deg;
