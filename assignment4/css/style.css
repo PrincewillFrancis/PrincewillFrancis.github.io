@@ -39,9 +39,9 @@ span.oreo{
 
 span.period {
 	color:gold;
-	font-size:50em;
-	position:absolute;
-	right:50px;
-	bottom:400px;
-	opacity:0.6
+	font-size:1em;
+	/* position:absolute;
+	* right:50px;
+	* bottom:400px;
+	* opacity:0.6
 }
