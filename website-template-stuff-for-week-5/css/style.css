@@ -121,3 +121,93 @@ div#Sasuke:hover {
 	height: 650px;
 	transition: all 6s;
 }
+
+div#Sakura {
+    background: pink;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circle shape */
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    transition: all 0.5s;
+}
+
+div#Sakura:hover {
+    background: #ff69b4; /* Hot pink */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Still a circle */
+}
+
+div#Kakashi {
+    background: gray;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%); /* Trapezoid shape */
+    transition: all 0.5s;
+}
+
+div#Kakashi:hover {
+    background: silver;
+    width: 300px;
+    height: 150px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Rectangle on hover */
+}
+
+div#Iruka {
+    background: #FFD700; /* Gold */
+    width: 200px;
+    height: 200px;
+    border: 5px solid #8B4513; /* Brown border */
+    border-radius: 20%; /* Rounded corners */
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    transition: all 0.5s;
+}
+
+div#Iruka:hover {
+    background: #FF4500; /* Orange Red */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Circle on hover */
+}
+
+div#Ichiraku {
+    background: #8B0000; /* Dark Red */
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    transition: all 0.5s;
+}
+
+div#Ichiraku:hover {
+    background: #ff6347; /* Tomato */
+    width: 200px;
+    height: 200px;
+    border-radius: 40%; /* Rounded rectangle */
+}
+
+div#Jiraiya {
+    background: #00FF7F; /* Spring Green */
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    clip-path: ellipse(75% 50% at 50% 50%); /* Ellipse */
+    transition: all 0.5s;
+}
+
+div#Jiraiya:hover {
+    background: #32CD32; /* Lime Green */
+    width: 250px;
+    height: 150px;
+    clip-path: ellipse(100% 70% at 50% 50%); /* Wider ellipse */
+}
