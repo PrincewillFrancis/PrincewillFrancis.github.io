@@ -211,3 +211,21 @@ div#Jiraiya:hover {
     height: 150px;
     clip-path: ellipse(100% 70% at 50% 50%); /* Wider ellipse */
 }
+
+div#Tsunade {
+    background: #5810b8; 
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 490px;
+    top: 460px;
+    clip-path: ellipse(75% 50% at 50% 50%); /* Ellipse */
+    transition: all 0.5s;
+}
+
+div#Tsunade:hover {
+    background: #db1571; 
+    width: 250px;
+    height: 150px;
+    clip-path: ellipse(100% 70% at 50% 50%); /* Wider ellipse */
+}
