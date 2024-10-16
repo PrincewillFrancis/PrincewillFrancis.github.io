@@ -79,3 +79,9 @@ header,footer{
 	padding:10px;
 }
 
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+
+
+} /* closes 1024px+ */
