@@ -82,8 +82,11 @@ header,footer{
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 
+body{} 
+
 #container{
 	border:1px solid black;
+	width:700px;
 }
 
 } /* closes 1024px+ */
