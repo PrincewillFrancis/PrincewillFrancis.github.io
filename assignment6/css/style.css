@@ -50,7 +50,8 @@ header{
     font-size: 2em;
     line-height: 1.6em;
     font-family: 'Roboto Condensed', sans-serif; /* Using the new font */
-    
+    background: none;
+    color: black;
 }
 
 main header{
