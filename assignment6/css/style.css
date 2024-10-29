@@ -21,6 +21,12 @@ body {
 	
 }
 
+.roboto-condensed-regular {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Adjust weight as needed */
+    font-style: normal;
+}
 
 #container {
 	width:725px;
@@ -40,20 +46,21 @@ header, footer{
 }
 
 header{
-	padding:10px;
-	font-size:2em;
-	line-height:1.6em;
-	/*font-family: 'font-family: "Exo 2", sans-serif;*/
+	padding: 10px;
+    font-size: 2em;
+    line-height: 1.6em;
+    font-family: 'Roboto Condensed', sans-serif; /* Using the new font */
+    
 }
 
 main header{
 	background:none;
-	color:#black;
+	color:black;
 	font-size:1.2em;
 }
 
 main {
-	padding;20px
+	padding:20px
 }
 
 p{
@@ -61,6 +68,7 @@ p{
 }
 
 .mobile{
+
 }
 
 .desktop{
