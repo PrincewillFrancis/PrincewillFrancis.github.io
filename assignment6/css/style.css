@@ -19,7 +19,10 @@ html {
 body {
 	background:#b51ec9;
 	color:green;
-	
+	font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
