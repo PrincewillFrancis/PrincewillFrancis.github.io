@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>assignment 8</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>Inspirational Quotes</h1>
+<h2>quotes by inspirational people</h2>
+</header>
+
+<!-- RAMBLE ONE -->
+<p id="thing1">"You have to believe in yourself when no one else does." --Serena Williams</p>
+<button class="button button1">QUOTE 2</button>
+    
+<!-- RAMBLE TWO -->
+<p id="thing2" style="display:none;">"Spread love everywhere you go. Let no one ever come without leaving happier." --Mother Teresa</p>
+<button class="button button2" style="display:none;">QUOTE 3</button>
+    
+<!--RAMBLE THREE-->
+<p id="thing3" style="display:none;">"Confident people have a way of carrying themselves that makes others attracted to them." --Sofia Vergara</p>
+<button class="button button3" style="display:none;">QUOTE 4</button>
+    
+<!-- RAMBLE FOUR-->
+<p id="thing4" style="display:none;">"It is never too late to be what you might have been." --George Elliot</p>
+<button class="button button4" style="display:none;">QUOTE 5</button>
+    
+<!-- RAMBLE FIVE-->
+<p id="thing5" style="display:none;">"Get busy living or get busy dying." --Stephen King</p>
+
+
+</div><!-- close "container" -->
+    <!-- Paste the jQuery starter code below here -->
+ <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+    $(document).ready(function() {
+      // thing 1 shows the second text
+      $('.button1').click(function() {
+        $('#thing2').slideToggle(); // display second text
+        $(this).hide(); // Hide button 1 when clicked
+        $('.button2').show(); // Show second button
+      });
+      
+      // thing 2 shows the third text
+      $('.button2').click(function() {
+        $('#thing3').slideToggle(); // display third text
+        $(this).hide(); // Hide button 2 when clicked
+        $('.button3').show(); // Show third button
+      });
+      
+      // thing 3 shows the fourth text
+      $('.button3').click(function() {
+        $('#thing4').slideToggle(); // display fourth text
+        $(this).hide(); // Hide button 3 when clicked
+        $('button4').show(); // Show fourth button
+      });
+      
+      // thing 4 shows the fifth text
+      $('.button4').click(function() {
+        $('#thing5').slideToggle(); // display fifth text
+        $(this).hide(); // Hide button 4 when clicked
+      });
+    });
+  </script>
+
+</body>
+	
+</html> 
