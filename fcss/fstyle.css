@@ -1,0 +1,73 @@
+
+body {
+    font-family: "Quicksand", Arial, sans-serif;
+	font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Ensure no additional margin is added */
+    padding: 0; /* Reset padding */
+   
+}
+
+.logo-img {
+    width: 30px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0px; /* Remove any extra margin around the image */
+    padding: 0px; /* Remove padding */
+    display: inline-block; /* Ensure proper alignment */
+}
+
+.bros{
+	width: 500px; /* Adjust the size of the image */
+	}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 1em;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.research-item, .review-item {
+    margin: 1em 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
