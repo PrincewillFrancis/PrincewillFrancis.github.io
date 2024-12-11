@@ -109,21 +109,50 @@ footer.footer {
     text-align: justify;
 }
 
-/* Media query for smaller screens */
+/* Base styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ensure text scales well on smaller screens */
+body {
+    font-size: 16px; /* Default font size for larger screens */
+}
+
 @media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em; /* Scale down headings */
+        text-align: center; /* Center headings on small screens */
+    }
+
     .content-layout {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center content */
     }
 
-    .employee-img {
-        max-width: 80%;
-        margin-bottom: 20px;
+    .employee-img, .ieye, .iarm .bros, .logo-img {
+        max-width: 90%; /* Scale images to 90% of the screen width */
+        margin-bottom: 20px; /* Add spacing below images */
     }
 
-    .text-content {
-        text-align: justify;
-        padding: 0 10px;
+    p, ul {
+        padding: 0 10px; /* Add padding to make text readable */
+        text-align: justify; /* Keep text aligned */
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Wrap navigation links on smaller screens */
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 5px; /* Space out navigation links */
     }
 }
